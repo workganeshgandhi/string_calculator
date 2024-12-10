@@ -1,5 +1,5 @@
 {
-  "name": "string-calculator",
+  "name": "string_calculator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -31,5 +31,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0"
+  }, 
+  "jest": { 
+      "setupFilesAfterEnv": [ "<rootDir>/src/setupTests.js" ] 
   }
 }
